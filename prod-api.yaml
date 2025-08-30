@@ -17,7 +17,7 @@ spec:
         hotel: apps
       containers:
         - name: api
-          image: ghcr.io/mohamedmahtali/hotel-api:dev
+          image: ghcr.io/mohamedmahtali/hotel-api:018e14d8cda7193d1b5d6eb7de2e5fca19652cd7
           ports:
             - name: http
               containerPort: 8000
